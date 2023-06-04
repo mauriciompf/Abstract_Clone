@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .spacing-section2 {
+        @apply flex gap-5 mb-14;
+    }
+}

@@ -993,6 +993,11 @@ video {
   animation: bounce 1s infinite;
 }
 
+.hover\:border-primary-blue:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(76 95 213 / var(--tw-border-opacity));
+}
+
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1040,6 +1045,56 @@ video {
 
 .focus\:underline:focus {
   text-decoration-line: underline;
+}
+
+.focus\:outline-primary-blue:focus {
+  outline-color: #4C5FD5;
+}
+
+.group:hover .group-hover\:border-primary-blue {
+  --tw-border-opacity: 1;
+  border-color: rgb(76 95 213 / var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:bg-primary-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 95 213 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:text-primary-blue {
+  --tw-text-opacity: 1;
+  color: rgb(76 95 213 / var(--tw-text-opacity));
+}
+
+.group:focus .group-focus\:bg-primary-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 95 213 / var(--tw-bg-opacity));
+}
+
+.group:focus .group-focus\:text-primary-blue {
+  --tw-text-opacity: 1;
+  color: rgb(76 95 213 / var(--tw-text-opacity));
+}
+
+.group:focus .group-focus\:outline-primary-blue {
+  outline-color: #4C5FD5;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-primary-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(25 26 27 / var(--tw-bg-opacity));
+  }
+
+  .dark\:text-primary-black {
+    --tw-text-opacity: 1;
+    color: rgb(25 26 27 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
 }
 
 @media (max-width: 1100px) {
